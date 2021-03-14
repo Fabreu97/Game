@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Fabreu/Desktop/Projetos/SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add directory="C:/Users/Fabreu/Desktop/Projetos/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Character.cpp" />
+		<Unit filename="Character.h" />
+		<Unit filename="CollidingEntity.cpp" />
+		<Unit filename="CollidingEntity.h" />
+		<Unit filename="CollisionManager.cpp" />
+		<Unit filename="CollisionManager.h" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.h" />
+		<Unit filename="Enemy01.cpp" />
+		<Unit filename="Enemy01.h" />
+		<Unit filename="Enemy02.cpp" />
+		<Unit filename="Enemy02.h" />
+		<Unit filename="Enemy03.cpp" />
+		<Unit filename="Enemy03.h" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GraphicManager.cpp" />
+		<Unit filename="GraphicManager.h" />
+		<Unit filename="Groupings.cpp" />
+		<Unit filename="Groupings.h" />
+		<Unit filename="LifeBar.cpp" />
+		<Unit filename="LifeBar.h" />
+		<Unit filename="List.h" />
+		<Unit filename="Obstacle.cpp" />
+		<Unit filename="Obstacle.h" />
+		<Unit filename="Obstacle01.cpp" />
+		<Unit filename="Obstacle01.h" />
+		<Unit filename="Obstacle02.cpp" />
+		<Unit filename="Obstacle02.h" />
+		<Unit filename="Obstacle03.cpp" />
+		<Unit filename="Obstacle03.h" />
+		<Unit filename="Platform.cpp" />
+		<Unit filename="Platform.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Player01.cpp" />
+		<Unit filename="Player01.h" />
+		<Unit filename="Player02.cpp" />
+		<Unit filename="Player02.h" />
+		<Unit filename="Projectile.cpp" />
+		<Unit filename="Projectile.h" />
+		<Unit filename="Queue.h" />
+		<Unit filename="QueueProjectile.h" />
+		<Unit filename="Screen.cpp" />
+		<Unit filename="Screen.h" />
+		<Unit filename="Stack.h" />
+		<Unit filename="Vector2D.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
