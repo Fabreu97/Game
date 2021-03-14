@@ -1,6 +1,10 @@
 # Game(Provisional Name)
 
  Creating a game using the SFML graphics library. Project stopped until the realization of the game design part
+ <img src="ScreeShot/menu.jpg" alt="menu image"/>
+ <img src="ScreenShot/image01.jpg" alt="Image01"/>
+ <img src="ScreenShot/image02.jpg" alt="Image02"/>
+ <img src="ScreenShot/image03.jpg" alt="Image03"/>
 
  NOTE: This project is in transition from the names of methods, attributes, classes and objects from Portuguese to English
  
